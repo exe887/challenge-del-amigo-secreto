@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Juego interactivo de Amigo Secreto para sortear participantes y asignar regalos de forma aleatoria.">
+    <title>Amistad Secreta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title header__title--verde tipografiaPrincipal">🫂 Amistad Secreta 🫂</h1>
+    </header>
+    <div class="textos__informacionGeneral">
+        <section class="informacionGeneral">
+            <h3 class="informacionGeneral__title tipografiaPrincipal">🎁¿Qué es el Amigo Secreto?🎁</h3>
+            <div class="informacionGeneral__iconos">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" color="#bd10e0" fill="none">
+                    <path d="M8.26872 8.49708C9.60954 7.67461 10.7798 8.00606 11.4828 8.53401C11.7711 8.75048 11.9152 8.85871 12 8.85871C12.0848 8.85871 12.2289 8.75048 12.5172 8.53401C13.2202 8.00606 14.3905 7.67461 15.7313 8.49708C17.491 9.57647 17.8891 13.1374 13.8302 16.1417C13.0571 16.7139 12.6706 17 12 17C11.3294 17 10.9429 16.7139 10.1698 16.1417C6.11086 13.1374 6.50903 9.57647 8.26872 8.49708Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                    <path d="M22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12Z" stroke="currentColor" stroke-width="1.5" />
+                </svg>
+            </div>
+            <p class="informacionGeneral__parrafo">El concepto es:</p>
+            <ul class="informacionGeneral__lista">
+                <li>El Amigo Secreto es un juego de intercambio de regalos en el que los participantes reciben un nombre al azar y deben hacerle un obsequio sin revelar su identidad 🕵🏼‍♂️.</li>
+            </ul>
+        </section>
+        <section class="informacionGeneral">
+            <h3 class="informacionGeneral__title tipografiaPrincipal">🎲 ¿Como jugar? 🎲</h3>
+            <div class="informacionGeneral__iconos">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" color="#bd10e0" fill="none">
+                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" />
+                    <path d="M10 9C10 7.89543 10.8954 7 12 7C13.1046 7 14 7.89543 14 9C14 9.39815 13.8837 9.76913 13.6831 10.0808C13.0854 11.0097 12 11.8954 12 13V13.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                    <path d="M11.992 17H12.001" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+            <p class="informacionGeneral__parrafo">Estos son los pasos para jugar:</p>
+            <ul class="informacionGeneral__lista">
+                <li>Ingresa los nombres de los participantes en el cuadro de texto.</li>
+                <li>Una vez ingresados todos los participantes, haz click en el botón sortear.</li>
+                <li>El sistema te asignara automáticamente un Amigo Secreto en base a los nombres ingresados.</li>
+                <li>Paso final: Que inicie el juego</li>
+            </ul>
+        </section>
+        <section class="informacionGeneral">
+            <h3 class="informacionGeneral__title tipografiaPrincipal">📜 Reglas 📜</h3>
+            <div class="informacionGeneral__iconos">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" color="#bd10e0" fill="none">
+                    <path d="M5.32171 9.6829C7.73539 5.41196 8.94222 3.27648 10.5983 2.72678C11.5093 2.42437 12.4907 2.42437 13.4017 2.72678C15.0578 3.27648 16.2646 5.41196 18.6783 9.6829C21.092 13.9538 22.2988 16.0893 21.9368 17.8293C21.7376 18.7866 21.2469 19.6548 20.535 20.3097C19.241 21.5 16.8274 21.5 12 21.5C7.17265 21.5 4.75897 21.5 3.46496 20.3097C2.75308 19.6548 2.26239 18.7866 2.06322 17.8293C1.70119 16.0893 2.90803 13.9538 5.32171 9.6829Z" stroke="currentColor" stroke-width="1.5" />
+                    <path d="M11.992 16H12.001" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M12 13L12 8.99997" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+            <p class="informacionGeneral__parrafo">Estas son las reglas del juego:</p>
+            <ul class="informacionGeneral__lista">
+                <li>No se puede revelar la identidad de tu Amigo Secreto ni el de los demás.</li>
+                <li>No se puede cambiar de Amigo Secreto una vez iniciado el juego.</li>
+                <li>El regalo debe ser entregado en la fecha establecida.</li>
+                <li>Importante mantener el respeto entre el participante y su Amigo Secreto.</li>
+            </ul>
+        </section>
+    </div>
+    <main class="main">
+        <h3 class="main__title tipografiaPrincipal">🎁🎁🎁 Participantes 🎁🎁🎁</h3>
+        <form class="main__form">
+            <fieldset class="main__fielset">
+                <legend class="main__legend">Ingresa los nombres de los participantes:</legend>
+                <input id="elementos" class="main__input" type="text">
+                <button type="button" onclick="agregarElementoLista()" class="main__button">(+) Agregar (+)</button>
+                <p id="mensajeSorteo" class="main__parrafo destacado"></p>
+            </fieldset>
+        </form>
+        <section class="main__section">
+            <h3 class="main__title tipografiaPrincipal">Lista de participantes</h3>
+            <ul id="listaUl" class="main__lista">
+            </ul>
+            <button type="button" onclick="sortearUsuarios()" class="main__button main__button--sortear">Sortear</button>
+            <button type="button" onclick="reiniciarJuego()" class="main__button main__button--reiniciar">Reiniciar</button>
+        </section>
+    </main>
+    <script src="app.js" defer></script>
+</body>
+</html>
